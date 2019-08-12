@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    position: absolute;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+div.ingrid {
+    height: 50px;
+	width: 50px;
+    border-radius: 50%;
+    display: grid;
+    padding: 20px;
+    margin: 50px;
+}
+
+div#one:hover, div#six:hover, div#nine:hover, div#thirteen:hover {
+    background-color: red;
+}
+
+a {
+    height: 50px;
+	width: 50px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
