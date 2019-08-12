@@ -10,6 +10,12 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+p {
+    color: red;
+    font-family: sans-serif;
+    text-align: center;
+}
+
 div.container {
     display: grid;
     grid-template-columns: auto auto auto auto;
